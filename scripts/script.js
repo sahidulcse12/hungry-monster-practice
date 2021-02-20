@@ -23,6 +23,15 @@ const searchClickHandler = () => {
 
 searchClickHandler();
 
+const keypress = document.getElementById("search-input");
+const buttonClick = document.getElementById("search-btn");
+
+keypress.addEventListener("keypress", function(event) {
+    //event.preventDefault();
+    if (event.keyCode == 13)
+    buttonClick.click();
+});
+
 
 const resultNotFound = error => {
     const errorMessage = document.getElementById('error-message');
