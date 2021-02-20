@@ -1,0 +1,75 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.food-div{
+    
+    background-color: #ebe8e2;
+    height: 100%;
+    border-radius: 5px;
+}
+.thumb-img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 70%;
+}
+.food-title{
+    padding-top: 30px;
+    text-align: center;
+}
+.error{   
+    text-align: center;
+ 
+}
+
+
+#result-section{
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+#detail-section{
+    display: none;
+    width: 100%;
+}
+#result-section{
+    margin-top: 100px;
+}
+#search-btn{
+    background-color: #F06C4E;
+}
+#detail-image{
+    width: 80%;
+    margin-bottom: 1rem;
+    
+    border-radius: 7px;  
+}
+#ingredients{
+    width: 40%;
+    margin: 0 auto;   
+}
+#detail-section h5{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+#detail-section li:before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    right: 1.5rem;
+    top: 7px;
+    height: 24px;
+    width: 24px;
+    background-image: url('../images/list.png');
+ }
+
